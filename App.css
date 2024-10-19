@@ -1,0 +1,55 @@
+/* App.css */
+
+/* General Styles */
+body {
+  font-family: 'Arial', sans-serif; /* Clean sans-serif font */
+  margin: 0;
+  padding: 0;
+  background-color: #2c2c2c; /* Dark background */
+}
+
+/* Login Page */
+.login-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #444; /* Darker background */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5); /* Soft shadow */
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+}
+
+.login-page h2 {
+  margin-bottom: 20px;
+  color: #fff; /* White text for contrast */
+}
+
+.login-page input {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc; /* Light border */
+  border-radius: 4px; /* Rounded corners */
+  width: 220px; /* Consistent width */
+  background-color: #555; /* Dark input background */
+  color: #fff; /* White text for input */
+}
+
+.login-page button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #28a745; /* Green background */
+  color: white;
+  border: none;
+  border-radius: 4px; /* Rounded corners */
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transitions */
+}
+
+.login-page button:hover {
+  background-color: #218838; /* Darker green on hover */
+  transform: translateY(-2px); /* Lift effect */
+}
